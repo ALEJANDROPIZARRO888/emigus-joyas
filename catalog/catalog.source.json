@@ -22,7 +22,7 @@
     "tag": "Más vendido",
     "stock": 1,
     "meta": "Plata 925 / circones",
-    "img": "https://drive.google.com/thumbnail?id=1MwukkCjJQ3x4TsaOJsvG9SFTSEAdrqHe&sz=w1000",
+    "img": "assets/catalogo/2.jpg",
     "desc": "La silueta más reconocible del mundo, cubierta de circones. Nostalgia con brillo, en versión adulta."
   },
   {
@@ -35,7 +35,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / 0,8 cm / plata pulida",
-    "img": "https://drive.google.com/thumbnail?id=1rsXmzd6wrGYv8Nx7bh1N0mTidtAluXma&sz=w1000",
+    "img": "assets/catalogo/3.jpg",
     "desc": "Dos círculos y una idea entera. Plata pulida, tamaño discreto: se los pone a los seis años o a los treinta y funciona igual."
   },
   {
@@ -48,7 +48,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / 1,0 cm / acabado satinado",
-    "img": "https://drive.google.com/thumbnail?id=1WtR_AN4zUlX18kgkvk3beMYeRT1JAZoK&sz=w1000",
+    "img": "assets/catalogo/4.jpg",
     "desc": "Traen el mar puesto. El acabado satinado imita la superficie de la concha, esa que uno se lleva del bolsillo cuando el verano termina."
   },
   {
@@ -61,7 +61,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / piedra ópalo azul tornasol",
-    "img": "https://drive.google.com/thumbnail?id=1uv_h6sWvh9iaUYentAo4omsqP_e_4FzP&sz=w1000",
+    "img": "assets/catalogo/5.jpg",
     "desc": "El ópalo cambia de azul según la luz, como el agua a distintas horas. Un delfín que se lleva el mar entero."
   },
   {
@@ -74,7 +74,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / tope de seguridad",
-    "img": "https://drive.google.com/thumbnail?id=1_-028ZvGuw4wzG_QgzU714EfUKgvhdba&sz=w1000",
+    "img": "assets/catalogo/6.jpg",
     "desc": "Alas que casi no pesan y un tope que no se suelta ni durmiendo. El primer par de muchas niñas."
   },
   {
@@ -87,7 +87,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / 0,9 cm / esmalte rojo",
-    "img": "https://drive.google.com/thumbnail?id=1mBklSaB2RqlLPWss38lN-C4eqnB6lgJm&sz=w1000",
+    "img": "assets/catalogo/7.jpg",
     "desc": "Una chinita trae suerte, dice la gente. Dos, entonces, traen el doble. El esmalte rojo se ve vivo incluso en un día gris de invierno."
   },
   {
@@ -100,7 +100,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / argolla 1 cm / cruz colgante",
-    "img": "https://drive.google.com/thumbnail?id=1Buq_ut15N_pm8vLpaFbHB4BexiJEL0J4&sz=w1000",
+    "img": "assets/catalogo/8.jpg",
     "desc": "La cruz cuelga de una argolla mínima y se mueve al caminar. Fe llevada con discreción, sin explicaciones."
   },
   {
@@ -113,7 +113,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / cuatro hojas / circones",
-    "img": "https://drive.google.com/thumbnail?id=1q7RtPI_u6egteBH2jBxp37MukMcG5xPt&sz=w1000",
+    "img": "assets/catalogo/9.jpg",
     "desc": "La excepción a la regla, rodeada de circones. Un amuleto que además combina con todo."
   },
   {
@@ -126,7 +126,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / 0,9 cm / circones",
-    "img": "https://drive.google.com/thumbnail?id=1DmQG93OaZJfBrl99Y5Ot5ixAEH_lgORg&sz=w1000",
+    "img": "assets/catalogo/10.jpg",
     "desc": "La suerte en tamaño pequeño. Suficiente para que se note, discreto para llevarlo todos los días sin pensarlo."
   },
   {
@@ -139,7 +139,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / 1,1 cm / plata pulida",
-    "img": "https://drive.google.com/thumbnail?id=1ddgnSwQr2WAzvnYbEk_oKC2pzEofptCk&sz=w1000",
+    "img": "assets/catalogo/11.jpg",
     "desc": "La forma que dejan las ballenas al sumergirse en el sur. Plata pulida, línea limpia: elegancia con una historia detrás."
   },
   {
@@ -152,7 +152,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / 1,2 cm / volumen 3D",
-    "img": "https://drive.google.com/thumbnail?id=1PviL_nCxxZQ-WPVRQETVB5TuENK1XWCF&sz=w1000",
+    "img": "assets/catalogo/12.jpg",
     "desc": "Hojas trabajadas en volumen, no en plano. La luz cae distinta en cada pliegue y por eso nunca se ven iguales dos veces."
   },
   {
@@ -165,7 +165,7 @@
     "tag": "Más vendido",
     "stock": 1,
     "meta": "Plata 925 / 0,8 cm / plata pulida",
-    "img": "https://drive.google.com/thumbnail?id=1MafxfO_lbnvOj5OjMBWLdKt-TGSR3VOb&sz=w1000",
+    "img": "assets/catalogo/13.jpg",
     "desc": "El símbolo del sin fin en 0,8 cm. Nuestro más vendido, y no es casualidad: combina con todo y no se lo saca nadie."
   },
   {
@@ -178,7 +178,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / argolla / margaritas",
-    "img": "https://drive.google.com/thumbnail?id=14Yt7yBzH0TfE3tIUKkh3xYNrcd4B04bM&sz=w1000",
+    "img": "assets/catalogo/14.jpg",
     "desc": "Margaritas repartidas alrededor de la argolla. Primavera puesta, incluso en julio."
   },
   {
@@ -191,7 +191,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / corazón colgante / 1,5 cm",
-    "img": "https://drive.google.com/thumbnail?id=1tTP46NIue3l7arDh2d_1ecMuTNYMuqxH&sz=w1000",
+    "img": "assets/catalogo/15.jpg",
     "desc": "Un corazón que cuelga y se balancea con cada paso. El primer regalo de una abuela, el que después se guarda en una cajita."
   },
   {
@@ -204,7 +204,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / perla / 1,4 cm",
-    "img": "https://drive.google.com/thumbnail?id=19YJI7--zSxJs-S7oev1PHHFL5F7Yc6xo&sz=w1000",
+    "img": "assets/catalogo/16.jpg",
     "desc": "La perla que baja de la plata: clásico absoluto. De la oficina al matrimonio sin cambiar nada."
   },
   {
