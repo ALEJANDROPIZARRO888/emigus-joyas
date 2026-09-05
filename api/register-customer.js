@@ -97,6 +97,7 @@ module.exports = async (req, res) => {
           to: email,
           subject: 'Bienvenida al Círculo EmiGus — tu 10% de descuento',
           html: welcomeEmailHtml({ name, code }),
+          replyTo: 'emigus.joyas@gmail.com',
         });
       } catch (mailErr) {
         console.error('register-customer: no se pudo enviar el correo de bienvenida', mailErr);

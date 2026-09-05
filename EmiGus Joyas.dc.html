@@ -1342,6 +1342,14 @@
                     </div>
                   </td>
                 </tr>
+                <tr style="border-bottom:1px solid #F1EBE2">
+                  <td colspan="7" style="padding:4px 12px 14px;background:#FBF9F5">
+                    <div style="display:flex;gap:8px;align-items:flex-start;max-width:640px">
+                      <textarea value="{{ o.comentarioValue }}" onInput="{{ o.setComentario }}" placeholder="Comentario de la clienta — pégalo acá si respondió el correo…" rows="2" style="flex:1;font-family:'Jost',sans-serif;font-weight:300;font-size:12.5px;color:#33322F;background:#FFFDF9;border:1px solid #E7E0D6;border-radius:5px;padding:8px 10px;outline:none;resize:vertical"></textarea>
+                      <button onClick="{{ o.saveComentario }}" style="font-family:'Jost',sans-serif;font-weight:400;font-size:12px;padding:8px 14px;border-radius:5px;border:1px solid #33322F;background:#33322F;color:#FFFDF9;cursor:pointer;white-space:nowrap">Guardar</button>
+                    </div>
+                  </td>
+                </tr>
               </sc-for>
             </tbody>
           </table>
@@ -2284,6 +2292,39 @@ class Component extends DCLogic {
     }
   };
 
+  // Comentario de la clienta (llegó por correo, la administradora lo pega
+  // acá a mano — no hay conexión automática con la bandeja de entrada). Se
+  // guarda como borrador mientras escribe y recién se envía al servidor con
+  // el botón "Guardar".
+  setOrderComentario = (numero) => (ev) => {
+    const value = ev.target.value;
+    this.setState(s => ({ orderCommentDrafts: { ...(s.orderCommentDrafts || {}), [numero]: value } }));
+  };
+
+  saveOrderComentario = (numero) => async () => {
+    const drafts = this.state.orderCommentDrafts || {};
+    const comentario = drafts[numero] !== undefined ? drafts[numero] : '';
+    try {
+      const res = await fetch('/api/set-order-comment', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password: this.state.adminSecret, numero, comentario }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'No se pudo guardar el comentario.');
+      this.setState(s => {
+        const nextDrafts = { ...(s.orderCommentDrafts || {}) };
+        delete nextDrafts[numero];
+        return {
+          orders: s.orders.map(o => o.numero === numero ? { ...o, comentario } : o),
+          orderCommentDrafts: nextDrafts,
+        };
+      });
+    } catch (err) {
+      this.setState({ ordersError: (err && err.message) || 'No se pudo guardar el comentario.' });
+    }
+  };
+
   // Página pública "Seguimiento": sin clave, solo el número de pedido.
   setTrackingInput = (ev) => this.setState({ trackingInput: ev.target.value, trackingError: '' });
 
@@ -2899,6 +2940,9 @@ class Component extends DCLogic {
         ...o,
         totalFmt: clp(o.total),
         setStatus: this.setOrderStatus(o.numero),
+        comentarioValue: (s.orderCommentDrafts && s.orderCommentDrafts[o.numero] !== undefined) ? s.orderCommentDrafts[o.numero] : (o.comentario || ''),
+        setComentario: this.setOrderComentario(o.numero),
+        saveComentario: this.saveOrderComentario(o.numero),
       })),
 
       isTracking: s.view === 'tracking',

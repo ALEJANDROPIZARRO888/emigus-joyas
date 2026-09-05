@@ -7,6 +7,7 @@ const { sendEmail } = require('../lib/mail');
 const { ESTADOS, updateOrderStatus } = require('../lib/orders');
 
 const SITE_URL = 'https://emigus.cl';
+const NOTIFY_TO = 'emigus.joyas@gmail.com';
 
 const ESTADO_MENSAJE = {
   'En preparación': 'Estamos preparando tu pedido con cariño.',
@@ -85,6 +86,10 @@ module.exports = async (req, res) => {
           to: order.correo,
           subject: `Tu pedido ${numero} está ${estado.toLowerCase()}`,
           html: statusEmailHtml({ cliente: order.cliente, numero, estado }),
+          // Si responde este correo (ej. dejando un comentario cuando se
+          // marca "Entregado"), que llegue a la bandeja real del negocio —
+          // no a la dirección de envío de Resend.
+          replyTo: NOTIFY_TO,
         });
       } catch (mailErr) {
         console.error('update-order-status: no se pudo enviar el correo a la clienta', mailErr);

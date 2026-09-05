@@ -223,6 +223,7 @@ module.exports = async (req, res) => {
           to: correo,
           subject: `Gracias por tu compra — pedido ${numero}`,
           html: confirmationEmailHtml({ cliente, numero, productos, total: payment.transaction_amount }),
+          replyTo: NOTIFY_TO,
         });
       } catch (mailErr) {
         console.error('mp-webhook: no se pudo enviar el correo de confirmación a la clienta', mailErr);
