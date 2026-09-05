@@ -217,7 +217,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / argolla 1 cm / piedra lavanda",
-    "img": "https://drive.google.com/thumbnail?id=1YuXLSzHLpGRgWqdRayEFL6L4fDOWfAhT&sz=w1000",
+    "img": "assets/catalogo/17.jpg",
     "desc": "La piedra lavanda tiñe la argolla de un violeta suave que cambia según la luz. Distinto sin ser estridente."
   },
   {
@@ -230,7 +230,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / circones / cierre seguro",
-    "img": "https://drive.google.com/thumbnail?id=1DUz1c1TXi_Kz-KC48dwRcNk-Qw3ImNgD&sz=w1000",
+    "img": "assets/catalogo/18.jpg",
     "desc": "Dos gatitos con circones por ojos. Para la niña que le pone nombre a todos los gatos del barrio."
   },
   {
@@ -243,7 +243,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / 0,7 cm / uso diario",
-    "img": "https://drive.google.com/thumbnail?id=1twV_ClUQzJyrvzzOicBhgsLqZd0SUxQV&sz=w1000",
+    "img": "assets/catalogo/19.jpg",
     "desc": "Gotas de 0,7 cm que casi no se sienten. Los aros que uno se pone y se olvida que lleva puestos."
   },
   {
@@ -256,7 +256,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / 0,6 cm / esmalte negro",
-    "img": "https://drive.google.com/thumbnail?id=1a8GoBH11sgh8bYv6LxHqqBADFXogZtHX&sz=w1000",
+    "img": "assets/catalogo/20.jpg",
     "desc": "Geometría sobria en esmalte negro. Mínimos, firmes, sin brillo innecesario: aros de hombre bien resueltos."
   },
   {
@@ -269,7 +269,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / enchapado / 45 cm",
-    "img": "https://drive.google.com/thumbnail?id=1qV_ZNXQBuL37geNBwMlHEkUimEqMc4Lf&sz=w1000",
+    "img": "assets/catalogo/21.jpg",
     "desc": "Una mariposa grande que se roba la mirada. Perfecto sobre un escote simple, cuando la joya tiene que hablar sola."
   },
   {
@@ -282,7 +282,7 @@
     "tag": "Más vendido",
     "stock": 1,
     "meta": "Plata 925 / 45 cm / circones y perla",
-    "img": "https://drive.google.com/thumbnail?id=11UcsloXvxU_rKpd8p5L__YWs6puWj8gn&sz=w1000",
+    "img": "assets/catalogo/22.jpg",
     "desc": "Una flor abierta y en el centro una perla. Femenino sin caer en lo obvio, y nuestro collar más pedido para cumpleaños."
   },
   {
@@ -295,7 +295,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / enchapado / 45 cm",
-    "img": "https://drive.google.com/thumbnail?id=1XKLdZ1k9PSh75FUc5F6lp6V0LuYQzi1d&sz=w1000",
+    "img": "assets/catalogo/23.jpg",
     "desc": "Enchapado con piedras que atrapan la luz a cada movimiento. El que se pone cuando la ocasión pide algo más."
   },
   {
@@ -308,7 +308,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / 42 cm / doble dije",
-    "img": "https://drive.google.com/thumbnail?id=1eDThyoiGFrVW3ha2O5bF0FdIpx9fxmRI&sz=w1000",
+    "img": "assets/catalogo/24.jpg",
     "desc": "Una estrella y una concha colgando juntas. El verano en el norte, la noche despejada, todo en 42 cm."
   },
   {
@@ -321,7 +321,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / 45 cm / circones",
-    "img": "https://drive.google.com/thumbnail?id=1jnNujdkbu7f_IN0mSnu6x9JKhxfUJNTp&sz=w1000",
+    "img": "assets/catalogo/25.jpg",
     "desc": "La ola que rompe y vuelve. Los circones dibujan la espuma y el diseño mantiene la calma del mar en un día bueno."
   },
   {
@@ -334,7 +334,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / 45 cm / circones",
-    "img": "https://drive.google.com/thumbnail?id=1Bifax2AeeIjuN0zuCheDP4OejcaGPSQG&sz=w1000",
+    "img": "assets/catalogo/26.jpg",
     "desc": "Dos corazones entrelazados que no se sueltan. El regalo de aniversario que no necesita tarjeta."
   },
   {
@@ -347,7 +347,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / 45 cm / diseño delicado",
-    "img": "https://drive.google.com/thumbnail?id=1GkG6n4-nmhap4v4O35I0Ds0P16bPCyTc&sz=w1000",
+    "img": "assets/catalogo/27.jpg",
     "desc": "Círculos que se encadenan sin principio ni fin. Delicado, moderno y de una simpleza que nunca cansa."
   },
   {
@@ -360,7 +360,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / 45 cm / circones",
-    "img": "https://drive.google.com/thumbnail?id=1VFg5P_t3EefsryJJyotz3SLspTd_Yktc&sz=w1000",
+    "img": "assets/catalogo/28.jpg",
     "desc": "Un círculo y adentro un corazón: la manera más simple de decir que alguien está contenido en tu vida."
   },
   {
@@ -373,7 +373,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / enchapado / 42 cm",
-    "img": "https://drive.google.com/thumbnail?id=1H4OBI2JWeatbm1ecw4gtUs-j95ZfmSQg&sz=w1000",
+    "img": "assets/catalogo/29.jpg",
     "desc": "Un solo punto de luz sobre el pecho. Enchapado, discreto, del tipo que se nota sin gritar."
   },
   {
@@ -386,7 +386,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / 45 cm / piedra central",
-    "img": "https://drive.google.com/thumbnail?id=1BhYCaEMtzvmP2Pc-AtLNan-ZqXimZfI3&sz=w1000",
+    "img": "assets/catalogo/30.jpg",
     "desc": "Una flor y una mariposa que se encuentran en la cadena. Primavera puesta al cuello, con una piedra en el centro."
   },
   {
@@ -399,7 +399,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / 17 cm ajustable / circones",
-    "img": "https://drive.google.com/thumbnail?id=1pjHoVKAtUIj57JYbTKsIML1aM-aVUqXz&sz=w1000",
+    "img": "assets/catalogo/31.jpg",
     "desc": "La suerte en la muñeca. Circones alrededor del trébol y cierre ajustable para que quede como a ti te gusta."
   },
   {
@@ -412,7 +412,7 @@
     "tag": "Más vendido",
     "stock": 1,
     "meta": "Plata 925 / 60 cm / resistente",
-    "img": "https://drive.google.com/thumbnail?id=1xbqnFd32zmVIsEFWBgbNJ6YE3mFXX6lq&sz=w1000",
+    "img": "assets/catalogo/32.jpg",
     "desc": "Sesenta centímetros de plata firme, para llevar sola o con un dije. Resistente al uso diario y mejora con los años."
   },
   {
@@ -425,7 +425,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / 60 cm / diseño clásico",
-    "img": "https://drive.google.com/thumbnail?id=1AvyciZ6QMivsbnuljC1hyMXXhYRwBc_r&sz=w1000",
+    "img": "assets/catalogo/33.jpg",
     "desc": "Eslabón clásico, ancho justo, sin adornos. La cadena que un hombre se pone una vez y ya no se saca."
   },
   {
@@ -438,7 +438,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925 / 50 cm / empaque de regalo",
-    "img": "https://drive.google.com/thumbnail?id=1D4YbnMvKZ7ywhMKbp0Ly00yf2s0IbaOS&sz=w1000",
+    "img": "assets/catalogo/34.jpg",
     "desc": "Cincuenta centímetros de línea limpia. Llega en empaque de regalo, listo para entregar sin envolver nada."
   },
   {
@@ -451,7 +451,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / 24 cm ajustable",
-    "img": "https://drive.google.com/thumbnail?id=1xudTUueJ2ER_C7PwWPEvcCH9AyyS2GXq&sz=w1000",
+    "img": "assets/catalogo/35.jpg",
     "desc": "Fina y discreta sobre el tobillo. Se ve en sandalias, se adivina bajo el pantalón: verano todo el año."
   },
   {
@@ -464,7 +464,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / 24 cm ajustable",
-    "img": "https://drive.google.com/thumbnail?id=1hd3Dt1SQm8jE_-3sOxgjhQ4NWP-LJBlc&sz=w1000",
+    "img": "assets/catalogo/36.jpg",
     "desc": "Cadena delgada que sigue el movimiento del pie. La joya que uno se pone en enero y descubre en julio que nunca se sacó."
   },
   {
@@ -477,7 +477,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / 25 cm ajustable",
-    "img": "https://drive.google.com/thumbnail?id=1oh4rVjS8X3BBVHtut7fRzdhQ4iD_9j_L&sz=w1000",
+    "img": "assets/catalogo/37.jpg",
     "desc": "La tobillera de siempre, bien hecha. Ajustable, resistente al agua salada y con el brillo justo."
   },
   {
@@ -490,7 +490,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / 24 cm ajustable",
-    "img": "https://drive.google.com/thumbnail?id=1ix_U2fTPBcizsfJnbteNvDlXYrIwjoW4&sz=w1000",
+    "img": "assets/catalogo/38.jpg",
     "desc": "Ni de moda ni pasada de moda: simplemente correcta. Plata 925 que aguanta la playa, la piscina y los años."
   },
   {
@@ -503,7 +503,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / 25 cm ajustable",
-    "img": "https://drive.google.com/thumbnail?id=1TkhfjIAYOgF2iTsEapkJHgmJ31CcaE66&sz=w1000",
+    "img": "assets/catalogo/39.jpg",
     "desc": "Destella al caminar. Para quien quiere que el detalle esté abajo, donde nadie lo espera."
   },
   {
@@ -516,7 +516,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro / 24 cm ajustable",
-    "img": "https://drive.google.com/thumbnail?id=1BpDleFN8xepWp0s1esnk1rZw9lEoQbGr&sz=w1000",
+    "img": "assets/catalogo/40.jpg",
     "desc": "Enchapada en oro, tono cálido sobre la piel bronceada. La versión dorada de nuestro clásico de verano."
   },
   {
@@ -529,7 +529,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro / diseño delicado",
-    "img": "https://drive.google.com/thumbnail?id=1jY-9y1z_7a28u843miKvGgQkEGYE8Ywy&sz=w1000",
+    "img": "assets/catalogo/41.jpg",
     "desc": "Enchapados en oro con esa calidez que la plata no da. Elevan un jeans y una polera blanca al instante."
   },
   {
@@ -542,7 +542,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro / perla cultivada",
-    "img": "https://drive.google.com/thumbnail?id=1AMOhHrcCjuyyfS7mNzgTwUZJnGdpAlwY&sz=w1000",
+    "img": "assets/catalogo/42.jpg",
     "desc": "Una luna diminuta enchapada en oro. Para la niña que pregunta por qué la luna la sigue cuando van en el auto."
   },
   {
@@ -555,7 +555,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro / circones",
-    "img": "https://drive.google.com/thumbnail?id=1sBRfRw5YfwEOvUa6w_1V9S2DRZI0SCQ4&sz=w1000",
+    "img": "assets/catalogo/43.jpg",
     "desc": "Enchapados en oro con circones que multiplican la luz. El par que se guarda para las ocasiones que importan."
   },
   {
@@ -568,7 +568,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1e-enEBU90UOt45PBCfPN35sfpU0dVje_&sz=w1000",
+    "img": "assets/catalogo/44.jpg",
     "desc": "Un collar de Plata 925 de línea limpia, sin adornos que sobren. Base perfecta para superponer con otros o llevar solo."
   },
   {
@@ -581,7 +581,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1fyAr0xVcLRZ3uIjbqptLQO11y3phL-UJ&sz=w1000",
+    "img": "assets/catalogo/45.jpg",
     "desc": "Aros de plata pulida para el día a día. Livianos, cómodos y del tipo que combina con absolutamente todo."
   },
   {
@@ -594,7 +594,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1cPckcmUadjfTmnwWwAPuhPCWbywfM_Tz&sz=w1000",
+    "img": "assets/catalogo/46.jpg",
     "desc": "Un corazón grande rodeado de circones. Nada sutil, y esa es la gracia: se ponen cuando quieres que se note."
   },
   {
@@ -607,7 +607,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1Fv0JYFSL3W7Y6G0Poirq0yJ9S9DRpjue&sz=w1000",
+    "img": "assets/catalogo/47.jpg",
     "desc": "La plata en su forma más simple. Sin piedras, sin brillos: solo el metal bien trabajado y la luz haciendo lo suyo."
   },
   {
@@ -620,7 +620,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1YWjzi-xZ9wopLGKtokmdzRIP415p85YP&sz=w1000",
+    "img": "assets/catalogo/48.jpg",
     "desc": "Pequeños, discretos y hechos para no quitárselos. Los aros que acompañan una rutina completa sin pedir permiso."
   },
   {
@@ -633,7 +633,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1twFd8g_CMeXDXaG32VgmdNCkBhSx6EH8&sz=w1000",
+    "img": "assets/catalogo/49.jpg",
     "desc": "Primeros aros de Plata 925, del tamaño justo para una orejita pequeña. Hipoalergénicos y con cierre seguro."
   },
   {
@@ -646,7 +646,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1QTT3E3c0lLGuvq4HZ50Y7UBChqw4_xF2&sz=w1000",
+    "img": "assets/catalogo/50.jpg",
     "desc": "Una forma limpia que la luz recorre sin obstáculos. Elegancia por sustracción, no por adorno."
   },
   {
@@ -659,7 +659,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=15WBoqPTiX830VZjiX3SoZH2vXvLf8xeO&sz=w1000",
+    "img": "assets/catalogo/51.jpg",
     "desc": "Plata pulida de un lado, mate del otro: el contraste hace todo el trabajo. Sencillos y siempre bien puestos."
   },
   {
@@ -672,7 +672,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1YgP9ih3lcVvzHmpip1s73IJM_eELQaYU&sz=w1000",
+    "img": "assets/catalogo/52.jpg",
     "desc": "Diseño clásico que ya nadie discute. Los que se recomiendan cuando alguien pregunta por dónde empezar."
   },
   {
@@ -685,7 +685,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1P-L18Jlqf62V8Ene142dI90n_5LyLn3S&sz=w1000",
+    "img": "assets/catalogo/53.jpg",
     "desc": "Cadena de Plata 925 para hombre, de peso equilibrado. Ni tan gruesa que incomode, ni tan fina que desaparezca."
   },
   {
@@ -698,7 +698,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1zMoB7p6ywKR6LSYvnsvaxCKfWkCCuqcZ&sz=w1000",
+    "img": "assets/catalogo/54.jpg",
     "desc": "Eslabón compacto, cierre firme, terminación pareja. Una cadena para usar, no para guardar."
   },
   {
@@ -711,7 +711,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1YGRraMerxlYWva1NeUn_0o3hG6wQhGdm&sz=w1000",
+    "img": "assets/catalogo/55.jpg",
     "desc": "La proporción exacta entre visible y discreto. Es el par que se pone para trabajar y sirve igual para salir después."
   },
   {
@@ -724,7 +724,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=13vULiwJDaa8j58eR1sMBW1PPbqN0F66X&sz=w1000",
+    "img": "assets/catalogo/56.jpg",
     "desc": "Aros pensados para niñas: livianos, seguros y con el brillo justo. Plata 925 que no irrita la piel."
   },
   {
@@ -737,7 +737,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1x6dBlH1itHIuAhDJtgB56J0-741j6_Kj&sz=w1000",
+    "img": "assets/catalogo/57.jpg",
     "desc": "Aros de plata que no piden nada. Su elegancia está en lo que dejaron fuera."
   },
   {
@@ -750,7 +750,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1sboBjUprbPATDb8bK10H10FelzCD_k9Q&sz=w1000",
+    "img": "assets/catalogo/58.jpg",
     "desc": "Un caballito de mar con circones y un ojo negro que le da carácter. Diminuto, detallado y difícil de encontrar."
   },
   {
@@ -763,7 +763,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=16WsjjHUisMQyvtY43uJQ89vadmuJraHa&sz=w1000",
+    "img": "assets/catalogo/59.jpg",
     "desc": "La luz rebota distinto según cómo se mueva la cabeza. Un par simple con más vida de la que promete."
   },
   {
@@ -776,7 +776,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1mjA5OTl2lnePdadjCAS3EWwZcD_TPaps&sz=w1000",
+    "img": "assets/catalogo/60.jpg",
     "desc": "Discretos hasta que alguien se acerca. Ahí aparecen los detalles del trabajo en plata."
   },
   {
@@ -789,7 +789,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1QLsB6e_3eJEaT54zX0jUD1xm9c_ywLII&sz=w1000",
+    "img": "assets/catalogo/61.jpg",
     "desc": "Para quien tiene una sola joya puesta y quiere que sea la correcta. Plata 925 sin adornos."
   },
   {
@@ -802,7 +802,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1EIBAQrrFcnA4njdeWiw953Ko9nwZCagg&sz=w1000",
+    "img": "assets/catalogo/63.jpg",
     "desc": "La versión mínima de un clásico. Cabe en cualquier estilo y no compite con nada."
   },
   {
@@ -815,7 +815,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1u196GZqpHLYUYCn3Ua60lw3lnXJc0dEc&sz=w1000",
+    "img": "assets/catalogo/64.jpg",
     "desc": "Aros que funcionan igual con el pelo tomado o suelto. Esa es toda su ambición y la cumplen."
   },
   {
@@ -828,7 +828,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1llMXjujn9-IdgmAjkzmpVR8B20971ejY&sz=w1000",
+    "img": "assets/catalogo/65.jpg",
     "desc": "Livianos al punto de olvidarlos. Ideales para quien nunca se acostumbró a los aros pesados."
   },
   {
@@ -841,7 +841,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1VZu1Xz0RSaRenK2fI2R4_2tj0yZ2Gaw5&sz=w1000",
+    "img": "assets/catalogo/66.jpg",
     "desc": "Pulsera de Plata 925 para hombre, sobria y resistente. Se ve mejor con el uso, no peor."
   },
   {
@@ -854,7 +854,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1DB2GlxoiPidbPoHmUkQjAvRqsmjsd7o7&sz=w1000",
+    "img": "assets/catalogo/67.jpg",
     "desc": "Una estrella que cuelga y se mueve, rodeada de circones. Noches despejadas del norte, en 1,5 cm."
   },
   {
@@ -867,7 +867,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=19WrgcUBDs6gG0amkHr0Rl7fJqn3_Y41z&sz=w1000",
+    "img": "assets/catalogo/68.jpg",
     "desc": "Plata pulida que devuelve la luz sin exagerar. El par de todos los días bien resuelto."
   },
   {
@@ -880,7 +880,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1RlSGWS9BxYblfBnwzzqqiiS0KJN-ifao&sz=w1000",
+    "img": "assets/catalogo/69.jpg",
     "desc": "Un diseño que no envejece porque nunca estuvo de moda. Simplemente correcto."
   },
   {
@@ -893,7 +893,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1_uZmFmZ5JwrMO4uRCTnrdAFBMJ_JUwPa&sz=w1000",
+    "img": "assets/catalogo/70.jpg",
     "desc": "Compactos y firmes. Para quien se pone aros a las siete de la mañana y no vuelve a pensarlos."
   },
   {
@@ -906,7 +906,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1QlHIyrLT8ZkKvdNqw4PRWdFx-dr2Np1Z&sz=w1000",
+    "img": "assets/catalogo/71.jpg",
     "desc": "Aros de Plata 925 en tamaño infantil. Cierre seguro y metal hipoalergénico, pensados para pieles delicadas."
   },
   {
@@ -919,7 +919,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1RGMTW6-jMq94Sd6wnuFBJNWCaaRTvJBM&sz=w1000",
+    "img": "assets/catalogo/72.jpg",
     "desc": "La plata trabajada con paciencia se nota de cerca. Un par honesto, sin trucos."
   },
   {
@@ -932,7 +932,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1563U30MVuhDeP7dNYJF5STVx6vUnoXIi&sz=w1000",
+    "img": "assets/catalogo/73.jpg",
     "desc": "Pequeños, brillantes y fáciles de combinar. El regalo seguro cuando no conoces el gusto exacto."
   },
   {
@@ -945,7 +945,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1tcpqDT2X7r52EMGqAx01NQWXEK43W_7H&sz=w1000",
+    "img": "assets/catalogo/74.jpg",
     "desc": "Una línea curva que sigue el contorno del lóbulo. Cómodos de llevar, difíciles de dejar."
   },
   {
@@ -958,7 +958,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1W4kMEjdCodFB9AteSHhzbxm9JlZLCH8p&sz=w1000",
+    "img": "assets/catalogo/75.jpg",
     "desc": "Una cadena con un corazón que descansa justo bajo la clavícula. Simple de decir, difícil de olvidar."
   },
   {
@@ -971,7 +971,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1dVRgYdO7jhK-lqPDrO0b9-DItaXDpQN1&sz=w1000",
+    "img": "assets/catalogo/76.jpg",
     "desc": "Aros que se ven distintos según la luz del día. En la mañana discretos, en la noche brillantes."
   },
   {
@@ -984,7 +984,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1fgA5qqx9Oz113en-jQIYn4LYTpOsCF3-&sz=w1000",
+    "img": "assets/catalogo/77.jpg",
     "desc": "Terminación pulida en toda la superficie. Se sienten sólidos apenas se toman entre los dedos."
   },
   {
@@ -997,7 +997,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1D6lPjBpM-7SElasxFFxzZS9k_6Vc4-1R&sz=w1000",
+    "img": "assets/catalogo/78.jpg",
     "desc": "Un collar de plata para llevar solo o encima de otro. La pieza que ordena el resto del conjunto."
   },
   {
@@ -1010,7 +1010,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1okbmMHE0RebxtcQZt4_2y7OnTBNY4uZL&sz=w1000",
+    "img": "assets/catalogo/79.jpg",
     "desc": "El par que uno busca cuando quiere algo simple y no encuentra nada suficientemente simple."
   },
   {
@@ -1023,7 +1023,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=17Kd0k3SCQRSFZYTFyP4LeODdyCn3qCzU&sz=w1000",
+    "img": "assets/catalogo/80.jpg",
     "desc": "Una chinita con circones de colores, diminuta y detallada. De esas joyas que hacen preguntar dónde la conseguiste."
   },
   {
@@ -1036,7 +1036,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1sIZsShRW_W-YPIPg2MC7sitLfhSz8mEG&sz=w1000",
+    "img": "assets/catalogo/81.jpg",
     "desc": "Plata 925 en su versión más sobria. Largo cómodo y cierre firme para usar sin pensarlo."
   },
   {
@@ -1049,7 +1049,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=10vdWCPWJMiE019Az7ApP0ZtxcyLB-H7J&sz=w1000",
+    "img": "assets/catalogo/82.jpg",
     "desc": "Un corazón con una perla al centro. Romántico sin exceso, del tipo que se regala en un aniversario."
   },
   {
@@ -1062,7 +1062,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro",
-    "img": "https://drive.google.com/thumbnail?id=1jYB228WQPGSB8Qbzdtz17SDVzuyWR_on&sz=w1000",
+    "img": "assets/catalogo/83.jpg",
     "desc": "Collar enchapado en oro, con ese tono cálido que ilumina la piel. La alternativa dorada de nuestra colección."
   },
   {
@@ -1075,7 +1075,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1sbn9SHSthK54N8rt8IMU7BESCqoegKIE&sz=w1000",
+    "img": "assets/catalogo/84.jpg",
     "desc": "Pulsera de Plata 925 de eslabón fino. Se lleva sola o acompañando a otras, como más te guste."
   },
   {
@@ -1088,7 +1088,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro",
-    "img": "https://drive.google.com/thumbnail?id=1iLIAlvrLbvErh81MPrUQ0c5NacnOdvlU&sz=w1000",
+    "img": "assets/catalogo/85.jpg",
     "desc": "Enchapados en oro con acabado espejo. La calidez del dorado en un par de uso diario."
   },
   {
@@ -1101,7 +1101,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro",
-    "img": "https://drive.google.com/thumbnail?id=1UtFNK-75YhOVa6ElpW8c0NjbpaVFnGpg&sz=w1000",
+    "img": "assets/catalogo/86.jpg",
     "desc": "Dorados, livianos y fáciles de combinar. El par que resuelve un look completo sin esfuerzo."
   },
   {
@@ -1114,7 +1114,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro",
-    "img": "https://drive.google.com/thumbnail?id=1PaiemkVMhjKzUA-UiIgnmBQvxtsdJt__&sz=w1000",
+    "img": "assets/catalogo/87.jpg",
     "desc": "Enchapado en oro sobre base firme. Brillan como oro y cuestan como plata."
   },
   {
@@ -1127,7 +1127,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro",
-    "img": "https://drive.google.com/thumbnail?id=1bj2IpRsz7SA5hFa6mVGlgixjewz4tQml&sz=w1000",
+    "img": "assets/catalogo/88.jpg",
     "desc": "Un par dorado para los días en que la plata queda fría. Cálidos y luminosos."
   },
   {
@@ -1140,7 +1140,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro",
-    "img": "https://drive.google.com/thumbnail?id=1wD5FKWJ2eJ82eT9YeI9RGXFFB16mi8Ew&sz=w1000",
+    "img": "assets/catalogo/89.jpg",
     "desc": "El acabado dorado le da carácter a lo más simple. Elegantes sin ser formales."
   },
   {
@@ -1153,7 +1153,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro",
-    "img": "https://drive.google.com/thumbnail?id=1WOq8ZC99P1FbIvcHb2VPUv3TX2Hq30t0&sz=w1000",
+    "img": "assets/catalogo/90.jpg",
     "desc": "Enchapados en oro, de proporción pequeña. Se notan sin adueñarse del rostro."
   },
   {
@@ -1166,7 +1166,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro",
-    "img": "https://drive.google.com/thumbnail?id=1Wl__sPHUIwDcQxCP5cSn7j1ry1ez6r14&sz=w1000",
+    "img": "assets/catalogo/91.jpg",
     "desc": "El dorado que favorece a casi todos los tonos de piel. Un par seguro para regalar."
   },
   {
@@ -1179,7 +1179,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro",
-    "img": "https://drive.google.com/thumbnail?id=1mx-mstEyfuos_Xe1QwftGY0d7gKzpzEt&sz=w1000",
+    "img": "assets/catalogo/92.jpg",
     "desc": "Un solo aro dorado bien resuelto vale por tres del montón. Este es de esos."
   },
   {
@@ -1192,7 +1192,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro",
-    "img": "https://drive.google.com/thumbnail?id=1IehadzHzjDWCiHaqMBZuVXKzqRND5oEl&sz=w1000",
+    "img": "assets/catalogo/93.jpg",
     "desc": "Enchapado en oro con terminación pareja. Discreto de día, luminoso de noche."
   },
   {
@@ -1205,7 +1205,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1cAklAkMspL-wIzKHS0PhY7tiJEx5meS7&sz=w1000",
+    "img": "assets/catalogo/94.jpg",
     "desc": "Aros de plata que no compiten con nada de lo que lleves puesto. Ahí está su valor."
   },
   {
@@ -1218,7 +1218,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1qReOnzy2kKVVCLFXnCeyPWjnO9WODN2-&sz=w1000",
+    "img": "assets/catalogo/96.jpg",
     "desc": "Simples de mirar, difíciles de hacer bien. La terminación es lo que los distingue."
   },
   {
@@ -1231,7 +1231,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1qeX3L2FPnrEWwHcMOYQV5EXOXS3l9SJt&sz=w1000",
+    "img": "assets/catalogo/97.jpg",
     "desc": "Pulsera de Plata 925 de caída suave sobre la muñeca. Cierre firme y largo ajustable."
   },
   {
@@ -1244,7 +1244,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1Vxs9Dsc2ehfl8kPvKnw0a1N9XJeKFrOq&sz=w1000",
+    "img": "assets/catalogo/98.jpg",
     "desc": "Un par pequeño con presencia. La plata bien pulida hace todo el trabajo."
   },
   {
@@ -1257,7 +1257,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=15vqMyPcEPuNfyqHc6YdBVbrC6vu8IkvL&sz=w1000",
+    "img": "assets/catalogo/99.jpg",
     "desc": "Aros para acompañar los días largos. Livianos, cómodos y siempre correctos."
   },
   {
@@ -1270,7 +1270,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1QCkHzzdM0nTKNaRxSiVsTplmpggCEkeu&sz=w1000",
+    "img": "assets/catalogo/100.jpg",
     "desc": "La sencillez que se aprecia con el tiempo. Sin adornos, sin fecha de vencimiento."
   },
   {
@@ -1283,7 +1283,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro",
-    "img": "https://drive.google.com/thumbnail?id=1R9iKZqo0eoqHH-4U0uGQrrj6k5jZjOj6&sz=w1000",
+    "img": "assets/catalogo/101.jpg",
     "desc": "Collar enchapado en oro con caída elegante. Se ve caro porque está bien hecho."
   },
   {
@@ -1296,7 +1296,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1W7JAPJUdNNlr7ArZANOMmtMYZsJzlPD7&sz=w1000",
+    "img": "assets/catalogo/102.jpg",
     "desc": "Un par honesto de Plata 925. Ni más ni menos de lo que promete."
   },
   {
@@ -1309,7 +1309,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1hhAQbi6Pj-oJvCW5TadJwEhogav7Qg67&sz=w1000",
+    "img": "assets/catalogo/103.jpg",
     "desc": "Diseño limpio que combina con todo lo que ya tienes. Ese es el punto."
   },
   {
@@ -1322,7 +1322,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1r3y3M-J-aicaDTA5shOteu6PoeI4iUPO&sz=w1000",
+    "img": "assets/catalogo/104.jpg",
     "desc": "Aros pequeños y luminosos. Para quien prefiere que la joya susurre."
   },
   {
@@ -1335,7 +1335,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=17PoHA88ruB_ocj6HUENjaNuWacHqI54f&sz=w1000",
+    "img": "assets/catalogo/105.jpg",
     "desc": "La plata trabajada sin apuro se nota en los bordes. Aquí se nota."
   },
   {
@@ -1348,7 +1348,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1XY3LkwKW6PxOePw_kP-0qK0Qro5Grp4o&sz=w1000",
+    "img": "assets/catalogo/106.jpg",
     "desc": "El par de reserva que termina siendo el favorito. Simple y resistente."
   },
   {
@@ -1361,7 +1361,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1hiDt-xYPhs4YAGo6VLM1Ux9jj4cgRNiP&sz=w1000",
+    "img": "assets/catalogo/107.jpg",
     "desc": "Tobillera de Plata 925 fina y liviana. Se adapta al tobillo sin apretar."
   },
   {
@@ -1387,7 +1387,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro",
-    "img": "https://drive.google.com/thumbnail?id=1-C5oA0TcsV1DgGSzlWCnUY0ZgpB0-Y8m&sz=w1000",
+    "img": "assets/catalogo/109.jpg",
     "desc": "Enchapados en oro, con brillo cálido y peso liviano. Cómodos de llevar todo el día."
   },
   {
@@ -1400,7 +1400,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=1d1il9gOFYGgMjzcmSg8Ra65d9eAzom3i&sz=w1000",
+    "img": "assets/catalogo/110.jpg",
     "desc": "Aros de plata pulida, del tamaño que siempre funciona. Un básico bien hecho."
   },
   {
@@ -1426,7 +1426,7 @@
     "tag": "",
     "stock": 1,
     "meta": "Plata 925",
-    "img": "https://drive.google.com/thumbnail?id=10kC-GM8E9v_EHFNniMvbm_XTdFq6BPS-&sz=w1000",
+    "img": "assets/catalogo/112.jpg",
     "desc": "Una pulsera simple para acompañar el día. Plata 925 que aguanta el uso real."
   },
   {
@@ -1439,7 +1439,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / cierre de rosca desmontable",
-    "img": "https://drive.google.com/thumbnail?id=1FkzZJUU_a7DxHoDWx371iss7vVHgNSL2&sz=w1000",
+    "img": "assets/catalogo/113.jpg",
     "desc": "La semiargolla abraza el lóbulo y deja caer un circón que se mueve al hablar. El cierre de rosca se desmonta: dos joyas en una."
   },
   {
@@ -1452,7 +1452,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / corazón colgante / circón brillante",
-    "img": "https://drive.google.com/thumbnail?id=1U61O8xZJqY996eUR0UAtVsja_Z9RSLlV&sz=w1000",
+    "img": "assets/catalogo/114.jpg",
     "desc": "Un corazón que cuelga de la curva y un circón que le roba la luz. Para los días en que el ánimo pide algo más que un aro liso."
   },
   {
@@ -1465,7 +1465,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / forma de gota / circones",
-    "img": "https://drive.google.com/thumbnail?id=1WlEVGKMVmTaZMeGqzbxeURhHGSuOc1Xn&sz=w1000",
+    "img": "assets/catalogo/115.jpg",
     "desc": "La gota entera bordeada de circones. Alarga el rostro y funciona igual con el pelo tomado o suelto."
   },
   {
@@ -1478,7 +1478,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / argolla / flor aplicada",
-    "img": "https://drive.google.com/thumbnail?id=1JNGbxHFcvNRQMmFeXuq6jEEYA-jlxFvP&sz=w1000",
+    "img": "assets/catalogo/116.jpg",
     "desc": "Una argolla clásica con una flor posada encima, como si hubiera caído ahí sola. Lo simple con un detalle que nadie más trae."
   },
   {
@@ -1491,7 +1491,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / circones / perla",
-    "img": "https://drive.google.com/thumbnail?id=1GTyEo0hgtoXNrE2Mo7ZrkU-6kjjN-fzg&sz=w1000",
+    "img": "assets/catalogo/117.jpg",
     "desc": "Circones dibujando el corazón y una perla al centro. El regalo de aniversario que no necesita explicación."
   },
   {
@@ -1504,7 +1504,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro / circones / corazón colgante",
-    "img": "https://drive.google.com/thumbnail?id=1N5bNwMBKEqR_a_DvpGWhZ2lmLo1mqC9q&sz=w1000",
+    "img": "assets/catalogo/118.jpg",
     "desc": "El dorado calienta la piel y el corazón cuelga justo donde se nota. Nuestra versión más romántica del enchapado."
   },
   {
@@ -1517,7 +1517,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro / concha con circones",
-    "img": "https://drive.google.com/thumbnail?id=1hJ8DRRKN-PK0EblkHDrV9qnMqB3C_YE5&sz=w1000",
+    "img": "assets/catalogo/119.jpg",
     "desc": "Una concha dorada con circones descansando en la muñeca. Trae el verano puesto aunque afuera esté lloviendo."
   },
   {
@@ -1530,7 +1530,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / florcitas / circones",
-    "img": "https://drive.google.com/thumbnail?id=1j77Su_6vQfbJMETy3CJ5S_2GPZyTHVVA&sz=w1000",
+    "img": "assets/catalogo/120.jpg",
     "desc": "Flores diminutas con un circón en el centro de cada una. Livianos, delicados y del tipo que se usa todos los días."
   },
   {
@@ -1543,7 +1543,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / perla blanca",
-    "img": "https://drive.google.com/thumbnail?id=1A4r6I4cGfDh0uJsJ6j1cR8eT_DjHJ7sg&sz=w1000",
+    "img": "assets/catalogo/121.jpg",
     "desc": "La perla blanca sobre plata: el clásico que nunca falla. De la oficina al matrimonio sin cambiar nada."
   },
   {
@@ -1556,7 +1556,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / volumen 3D / circones",
-    "img": "https://drive.google.com/thumbnail?id=1BMm8_W1G0s1tnjvWREfaniu-CDa-8y_r&sz=w1000",
+    "img": "assets/catalogo/122.jpg",
     "desc": "Mariposas trabajadas en volumen, no en plano. Las alas atrapan la luz distinto según cómo muevas la cabeza."
   },
   {
@@ -1569,7 +1569,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / corazón / flor / circones",
-    "img": "https://drive.google.com/thumbnail?id=1Vlj9OZohPsIPBQlWN83oIWxPaKGjPvk9&sz=w1000",
+    "img": "assets/catalogo/124.jpg",
     "desc": "Un corazón de circones con una flor escondida en el borde. Hay que acercarse para verla, y ahí está la gracia."
   },
   {
@@ -1582,7 +1582,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro / piedras facetadas gris ahumado",
-    "img": "https://drive.google.com/thumbnail?id=1NngcN5Ct7etRCaj08TGTXSrrn22AufbW&sz=w1000",
+    "img": "assets/catalogo/125.jpg",
     "desc": "Piedras facetadas en gris ahumado sobre dorado. Elegante sin ser formal, se ve mejor de noche."
   },
   {
@@ -1595,7 +1595,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / circones",
-    "img": "https://drive.google.com/thumbnail?id=1m9ULSQuSbprJjZMYir9UtW8EwX3qyse7&sz=w1000",
+    "img": "assets/catalogo/127.jpg",
     "desc": "Una conejita con cintillo, diminuta y llena de circones. Dulce sin ser infantil."
   },
   {
@@ -1608,7 +1608,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / tamaño grande",
-    "img": "https://drive.google.com/thumbnail?id=1teyIhAFLbR2aIdddvM1RPIXWj60Ro5lJ&sz=w1000",
+    "img": "assets/catalogo/128.jpg",
     "desc": "Corazones grandes de plata pulida. Se ponen cuando quieres que la joya hable primero."
   },
   {
@@ -1621,7 +1621,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / estrellas / circones",
-    "img": "https://drive.google.com/thumbnail?id=1dK-YrvsK4ekZb3wtD_cRxxo8vZXbdStv&sz=w1000",
+    "img": "assets/catalogo/129.jpg",
     "desc": "Estrellas de circones que destellan con cualquier luz. Noches despejadas del norte, en el lóbulo."
   },
   {
@@ -1634,7 +1634,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / trébol / circón central",
-    "img": "https://drive.google.com/thumbnail?id=1NZHNk1C5N7ZnOdCkzpnjdl3l3Tbm0fzA&sz=w1000",
+    "img": "assets/catalogo/131.jpg",
     "desc": "Cuatro hojas y un circón al centro. La suerte, en el tamaño justo para llevarla todos los días."
   },
   {
@@ -1647,7 +1647,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / perla / cadena con corazón",
-    "img": "https://drive.google.com/thumbnail?id=1KZ2-I2IuiRp73x7taOTL5kMMgQvLFWIM&sz=w1000",
+    "img": "assets/catalogo/132.jpg",
     "desc": "Una perla arriba, una cadena fina y un corazón abajo. Se mueve al caminar y ahí está todo el encanto."
   },
   {
@@ -1660,7 +1660,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / esmalte verde agua / circones",
-    "img": "https://drive.google.com/thumbnail?id=14VZ-MiUmyiES7ZMhkJQrOVJvANnSWqu9&sz=w1000",
+    "img": "assets/catalogo/133.jpg",
     "desc": "El verde agua del trébol contra el brillo de los circones. Color justo: se nota sin gritar."
   },
   {
@@ -1673,7 +1673,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / argollitas / llave colgante",
-    "img": "https://drive.google.com/thumbnail?id=1cm2wJ6t1jUgObMyFtuNkpYSC4GOaSIlj&sz=w1000",
+    "img": "assets/catalogo/134.jpg",
     "desc": "Una llave con corazones colgando de la argolla. Quien la recibe entiende el mensaje sin que se lo digan."
   },
   {
@@ -1686,7 +1686,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro / perla / cierre seguro",
-    "img": "https://drive.google.com/thumbnail?id=1_9sumkbl3n8d63orz0w0HmIVouqPvdb5&sz=w1000",
+    "img": "assets/catalogo/135.jpg",
     "desc": "Una perlita dorada del tamaño de una orejita pequeña. El primer regalo que después se guarda para siempre."
   },
   {
@@ -1699,7 +1699,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en plata / diseño cuff zigzag / circones",
-    "img": "https://drive.google.com/thumbnail?id=1TxUOkNIZGgOJ0ipNbPGOEwkh-KX6EMd_&sz=w1000",
+    "img": "assets/catalogo/136.jpg",
     "desc": "Un cuff que abraza el borde de la oreja sin perforación extra. Zigzag de circones para quien quiere algo distinto."
   },
   {
@@ -1712,7 +1712,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / perla",
-    "img": "https://drive.google.com/thumbnail?id=1YSoi0lsEUWe1ox4t-wNgOPGRbFZJCdmg&sz=w1000",
+    "img": "assets/catalogo/137.jpg",
     "desc": "Perla y plata, nada más. El par que resuelve cualquier ocasión sin pensarlo dos veces."
   },
   {
@@ -1725,7 +1725,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / doble infinito / circones",
-    "img": "https://drive.google.com/thumbnail?id=1oMM2IK1kaCAAXP3KB_-hRDNSEbTkZRej&sz=w1000",
+    "img": "assets/catalogo/139.jpg",
     "desc": "Dos infinitos cruzados y llenos de circones. Para lo que no se piensa terminar."
   },
   {
@@ -1738,7 +1738,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / doble trébol colgante / circones",
-    "img": "https://drive.google.com/thumbnail?id=1UVtkHD5GnZ17goP66XM4SOsOnthMWOBC&sz=w1000",
+    "img": "assets/catalogo/140.jpg",
     "desc": "Dos tréboles que cuelgan y se balancean. Doble suerte, por si acaso."
   },
   {
@@ -1751,7 +1751,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro / cristales facetados gris ahumado",
-    "img": "https://drive.google.com/thumbnail?id=1K0VDpKuJu0VUQuT5QSSUjn0NqaO_u5pB&sz=w1000",
+    "img": "assets/catalogo/142.jpg",
     "desc": "Cristales gris ahumado sobre cadena dorada. El collar que se pone cuando la ocasión pide algo más."
   },
   {
@@ -1764,7 +1764,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / silueta calada / circones",
-    "img": "https://drive.google.com/thumbnail?id=1kNShdTqIuzX2SPo86ZO4X75fvBBYjVSE&sz=w1000",
+    "img": "assets/catalogo/143.jpg",
     "desc": "La silueta de la gota dibujada con circones, hueca por dentro. Ligereza pura, con brillo alrededor."
   },
   {
@@ -1777,7 +1777,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / medalla de protección / cinta roja",
-    "img": "https://drive.google.com/thumbnail?id=1Lc1DzEXHL6dvWH2DBURV2jKEY6Tnn_b7&sz=w1000",
+    "img": "assets/catalogo/144.jpg",
     "desc": "La medalla de San Benito con su cinta roja, la protección de siempre. El regalo de las abuelas para un recién nacido."
   },
   {
@@ -1790,7 +1790,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / colgantes / circones",
-    "img": "https://drive.google.com/thumbnail?id=1oNYOlFFM1iyYZiPHVE1IE_z6wfiT4P2t&sz=w1000",
+    "img": "assets/catalogo/146.jpg",
     "desc": "Minnie colgando y moviéndose con cada paso. Los aros que se piden apuntando la vitrina con el dedo."
   },
   {
@@ -1803,7 +1803,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Plata 925 / argolla lisa",
-    "img": "https://drive.google.com/thumbnail?id=13hzQahGL54-haanIeUyxqYhqHEsrZHPF&sz=w1000",
+    "img": "assets/catalogo/147.jpg",
     "desc": "La argolla lisa de siempre, bien terminada. La base de cualquier colección de aros."
   },
   {
@@ -1816,7 +1816,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro / punto de luz",
-    "img": "https://drive.google.com/thumbnail?id=1WXnDuyAvgiuPK3Ca7gEEkXbkCfhHwWqH&sz=w1000",
+    "img": "assets/catalogo/148.jpg",
     "desc": "Mariposas doradas con un punto de luz en el ala. Cálidos, livianos y difíciles de dejar de usar."
   },
   {
@@ -1829,7 +1829,7 @@
     "tag": "Nuevo",
     "stock": 1,
     "meta": "Enchapado en oro / flor de loto",
-    "img": "https://drive.google.com/thumbnail?id=12Ue2hvsmAJ9zvyKZ3XX1b5Lj8AaEbkNr&sz=w1000",
+    "img": "assets/catalogo/149.jpg",
     "desc": "La flor que nace en el agua turbia y sale limpia. Dorada, serena y con una historia detrás."
   }
 ]
