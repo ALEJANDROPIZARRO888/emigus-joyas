@@ -2305,7 +2305,7 @@ class Component extends DCLogic {
     const drafts = this.state.orderCommentDrafts || {};
     const comentario = drafts[numero] !== undefined ? drafts[numero] : '';
     try {
-      const res = await fetch('/api/set-order-comment', {
+      const res = await fetch('/api/update-order-status', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ password: this.state.adminSecret, numero, comentario }),
