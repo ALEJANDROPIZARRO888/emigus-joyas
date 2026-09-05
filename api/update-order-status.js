@@ -4,7 +4,7 @@
 // (nunca solo en el navegador).
 
 const { sendEmail } = require('../lib/mail');
-const { ESTADOS, updateOrderStatus } = require('../lib/orders');
+const { ESTADOS, updateOrderStatus, setOrderComment } = require('../lib/orders');
 
 const SITE_URL = 'https://emigus.cl';
 const NOTIFY_TO = 'emigus.joyas@gmail.com';
@@ -70,8 +70,26 @@ module.exports = async (req, res) => {
   }
 
   const numero = String(body.numero || '').trim();
-  const estado = String(body.estado || '').trim();
   if (!numero) { res.status(400).json({ error: 'Falta el número de pedido.' }); return; }
+
+  // Este mismo endpoint también guarda el comentario de la clienta (columna
+  // Q, ver lib/orders.js) — se comparte con el cambio de estado en vez de
+  // crear una función serverless nueva, porque el plan Hobby de Vercel tiene
+  // un tope de 12. Se distingue por la presencia de `comentario` en el
+  // body: ese modo no manda correo (no hay nada que avisarle a la clienta).
+  if (body.comentario !== undefined) {
+    try {
+      const order = await setOrderComment(numero, String(body.comentario ?? ''));
+      if (!order) { res.status(404).json({ error: 'No encontramos ese pedido.' }); return; }
+      res.status(200).json({ ok: true, order });
+    } catch (err) {
+      console.error('update-order-status (comentario) error:', err);
+      res.status(500).json({ error: 'No se pudo guardar el comentario.' });
+    }
+    return;
+  }
+
+  const estado = String(body.estado || '').trim();
   if (!ESTADOS.includes(estado)) { res.status(400).json({ error: 'Estado inválido.' }); return; }
 
   try {
