@@ -1134,19 +1134,30 @@
         <button onClick="{{ closeQuick }}" aria-label="Cerrar" style="position:absolute;top:16px;right:16px;width:38px;height:38px;border-radius:999px;border:none;background:rgba(255,253,249,.92);color:#33322F;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:2;box-shadow:0 4px 14px rgba(51,50,47,.14)" style-hover="color:#96693C">
           <i class="ph-light ph-x" style="font-size:20px"></i>
         </button>
-        <div onClick="{{ openImageZoom }}" style="position:relative;flex:0 0 50%;aspect-ratio:4/5;background:#F6EFE7;overflow:hidden;cursor:zoom-in">
-          <image-slot id="{{ quick.slotId }}" src="{{ quick.img }}" shape="rect" placeholder="{{ quick.name }}"></image-slot>
-          <sc-if value="{{ quick.hasTag }}" hint-placeholder-val="{{ false }}">
-            <span style="position:absolute;top:16px;left:16px;background:#FFFDF9;color:#33322F;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;padding:6px 11px">{{ quick.tag }}</span>
-          </sc-if>
-          <span style="position:absolute;bottom:16px;left:16px;width:38px;height:38px;border-radius:999px;background:rgba(51,50,47,.72);color:#FFFDF9;display:flex;align-items:center;justify-content:center;pointer-events:none" aria-hidden="true">
-            <i class="ph-light ph-magnifying-glass-plus" style="font-size:18px"></i>
-          </span>
-          <sc-if value="{{ quick.editable }}" hint-placeholder-val="{{ false }}">
-            <label for="{{ quick.fileInputId }}" onClick="{{ stopClick }}" style="position:absolute;bottom:16px;right:16px;width:40px;height:40px;border-radius:999px;background:rgba(51,50,47,.85);color:#FFFDF9;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:2" aria-label="Cambiar foto">
-              <i class="{{ quick.imgIcon }}" style="font-size:18px"></i>
-            </label>
-            <input type="file" id="{{ quick.fileInputId }}" accept="image/jpeg,image/png,image/webp" onChange="{{ quick.setImage }}" onClick="{{ stopClick }}" style="display:none">
+        <div style="flex:0 0 50%;display:flex;flex-direction:column">
+          <div onClick="{{ openImageZoom }}" style="position:relative;aspect-ratio:4/5;background:#F6EFE7;overflow:hidden;cursor:zoom-in">
+            <image-slot id="{{ quick.slotId }}" src="{{ quick.img }}" shape="rect" placeholder="{{ quick.name }}"></image-slot>
+            <sc-if value="{{ quick.hasTag }}" hint-placeholder-val="{{ false }}">
+              <span style="position:absolute;top:16px;left:16px;background:#FFFDF9;color:#33322F;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;padding:6px 11px">{{ quick.tag }}</span>
+            </sc-if>
+            <span style="position:absolute;bottom:16px;left:16px;width:38px;height:38px;border-radius:999px;background:rgba(51,50,47,.72);color:#FFFDF9;display:flex;align-items:center;justify-content:center;pointer-events:none" aria-hidden="true">
+              <i class="ph-light ph-magnifying-glass-plus" style="font-size:18px"></i>
+            </span>
+            <sc-if value="{{ quick.editable }}" hint-placeholder-val="{{ false }}">
+              <label for="{{ quick.fileInputId }}" onClick="{{ stopClick }}" style="position:absolute;bottom:16px;right:16px;width:40px;height:40px;border-radius:999px;background:rgba(51,50,47,.85);color:#FFFDF9;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:2" aria-label="Cambiar foto">
+                <i class="{{ quick.imgIcon }}" style="font-size:18px"></i>
+              </label>
+              <input type="file" id="{{ quick.fileInputId }}" accept="image/jpeg,image/png,image/webp" onChange="{{ quick.setImage }}" onClick="{{ stopClick }}" style="display:none">
+            </sc-if>
+          </div>
+          <sc-if value="{{ quick.hasGallery }}" hint-placeholder-val="{{ false }}">
+            <div style="display:flex;gap:8px;padding:10px 0 0;flex-wrap:wrap">
+              <sc-for list="{{ quick.gallery }}" as="g" hint-placeholder-count="3">
+                <button type="button" onClick="{{ g.select }}" style="{{ g.thumbStyle }}">
+                  <img src="{{ g.url }}" style="width:100%;height:100%;object-fit:cover;display:block">
+                </button>
+              </sc-for>
+            </div>
           </sc-if>
         </div>
         <div style="flex:1 1 50%;min-width:0;padding:44px 40px;display:flex;flex-direction:column;gap:14px">
@@ -1278,10 +1289,20 @@
             <textarea rows="3" value="{{ addProdDesc }}" onChange="{{ setAddProdDesc }}" style="width:100%;border:1px solid #E7E0D6;padding:12px 14px;font-family:'Jost',sans-serif;font-size:14px;color:#33322F;background:none;outline:none;resize:vertical"></textarea>
           </div>
           <div>
-            <label style="display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8A847B;margin-bottom:8px">Foto</label>
-            <input type="file" accept="image/jpeg,image/png,image/webp" onChange="{{ setAddProdFile }}" style="width:100%;font-family:'Jost',sans-serif;font-size:13px;color:#33322F">
+            <label style="display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8A847B;margin-bottom:8px">Fotos (puedes elegir varias, hasta 6)</label>
+            <input type="file" accept="image/jpeg,image/png,image/webp" multiple onChange="{{ setAddProdFile }}" style="width:100%;font-family:'Jost',sans-serif;font-size:13px;color:#33322F">
             <sc-if value="{{ hasAddProdPreview }}" hint-placeholder-val="{{ false }}">
-              <img src="{{ addProdPreview }}" style="margin-top:12px;width:140px;aspect-ratio:4/5;object-fit:cover;border:1px solid #E7E0D6">
+              <div style="margin-top:12px;display:flex;flex-wrap:wrap;gap:10px">
+                <sc-for list="{{ addProdPreviews }}" as="ph" hint-placeholder-count="1">
+                  <div style="position:relative">
+                    <img src="{{ ph.url }}" style="width:90px;aspect-ratio:4/5;object-fit:cover;border:1px solid #E7E0D6">
+                    <sc-if value="{{ ph.isCover }}" hint-placeholder-val="{{ false }}">
+                      <span style="position:absolute;bottom:-2px;left:-2px;background:#33322F;color:#FFFDF9;font-size:8.5px;letter-spacing:.08em;text-transform:uppercase;padding:2px 6px">Portada</span>
+                    </sc-if>
+                    <button type="button" onClick="{{ ph.remove }}" aria-label="Quitar foto" style="position:absolute;top:-8px;right:-8px;width:22px;height:22px;border-radius:999px;border:none;background:#33322F;color:#FFFDF9;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:12px;line-height:1">×</button>
+                  </div>
+                </sc-for>
+              </div>
             </sc-if>
           </div>
           <sc-if value="{{ hasAddProdError }}" hint-placeholder-val="{{ false }}">
@@ -1800,8 +1821,8 @@ class Component extends DCLogic {
     addProdPrice: '',
     addProdStock: '',
     addProdDesc: '',
-    addProdFile: null,
-    addProdPreview: '',
+    addProdFiles: [],
+    addProdPreviews: [],
     addProdSaving: false,
     addProdError: '',
     showOrders: false,
@@ -1827,6 +1848,7 @@ class Component extends DCLogic {
     checkoutFormError: '',
     quickTalla: '',
     quickTallaError: '',
+    quickImgOverride: '',
     addProdTallas: []
   };
 
@@ -2130,12 +2152,12 @@ class Component extends DCLogic {
 
   openAddProduct = () => this.setState({
     showAddProduct: true, addProdName: '', addProdCat: 'mujer', addProdType: 'Aros',
-    addProdPrice: '', addProdStock: '', addProdDesc: '', addProdFile: null, addProdPreview: '', addProdError: '',
+    addProdPrice: '', addProdStock: '', addProdDesc: '', addProdFiles: [], addProdPreviews: [], addProdError: '',
     addProdTallas: []
   });
 
   closeAddProduct = () => {
-    if (this.state.addProdPreview) URL.revokeObjectURL(this.state.addProdPreview);
+    this.state.addProdPreviews.forEach(p => URL.revokeObjectURL(p.url));
     this.setState({ showAddProduct: false });
   };
 
@@ -2159,12 +2181,32 @@ class Component extends DCLogic {
     addProdError: ''
   }));
 
+  // Se pueden elegir varias fotos a la vez (o ir agregando de a una): se
+  // acumulan sobre las que ya había, hasta un máximo de 6 (columna K).
   setAddProdFile = (ev) => {
-    const file = ev.target.files && ev.target.files[0];
-    if (!file) return;
-    if (this.state.addProdPreview) URL.revokeObjectURL(this.state.addProdPreview);
-    this.setState({ addProdFile: file, addProdPreview: URL.createObjectURL(file), addProdError: '' });
+    const files = Array.from(ev.target.files || []).slice(0, 6);
+    ev.target.value = '';
+    if (!files.length) return;
+    this.setState(s => {
+      const room = Math.max(0, 6 - s.addProdFiles.length);
+      const toAdd = files.slice(0, room);
+      const newPreviews = toAdd.map(file => ({ file, url: URL.createObjectURL(file) }));
+      return {
+        addProdFiles: [...s.addProdFiles, ...toAdd],
+        addProdPreviews: [...s.addProdPreviews, ...newPreviews],
+        addProdError: '',
+      };
+    });
   };
+
+  removeAddProdFile = (idx) => () => this.setState(s => {
+    const removed = s.addProdPreviews[idx];
+    if (removed) URL.revokeObjectURL(removed.url);
+    return {
+      addProdFiles: s.addProdFiles.filter((_, i) => i !== idx),
+      addProdPreviews: s.addProdPreviews.filter((_, i) => i !== idx),
+    };
+  });
 
   // Redimensiona la foto en el navegador antes de subirla — evita mandar
   // fotos de varios MB tal cual desde el celular.
@@ -2206,19 +2248,26 @@ class Component extends DCLogic {
     if (!name) { this.setState({ addProdError: 'Escribe un nombre.' }); return; }
     if (!price || price <= 0) { this.setState({ addProdError: 'Escribe un precio válido.' }); return; }
     if (isNaN(stock) || stock < 0) { this.setState({ addProdError: 'Escribe un stock válido.' }); return; }
-    if (!s.addProdFile) { this.setState({ addProdError: 'Elige una foto.' }); return; }
+    if (!s.addProdFiles.length) { this.setState({ addProdError: 'Elige al menos una foto.' }); return; }
     if (s.addProdType === 'Anillos' && s.addProdTallas.length === 0) { this.setState({ addProdError: 'Selecciona al menos una talla.' }); return; }
 
     this.setState({ addProdSaving: true, addProdError: '' });
     try {
-      const base64 = await this.resizeImage(s.addProdFile);
-      const uploadRes = await fetch('/api/upload-image', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ password: s.adminSecret, base64, mimeType: 'image/jpeg', filename: name }),
-      });
-      const uploadData = await uploadRes.json();
-      if (!uploadRes.ok) throw new Error(uploadData.error || 'No se pudo subir la foto.');
+      // Se suben todas las fotos en orden, una por una — el mismo endpoint
+      // de siempre, solo que llamado varias veces. La primera queda como
+      // portada (imageUrl, igual que antes) y todas juntas forman la galería.
+      const urls = [];
+      for (const file of s.addProdFiles) {
+        const base64 = await this.resizeImage(file);
+        const uploadRes = await fetch('/api/upload-image', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ password: s.adminSecret, base64, mimeType: 'image/jpeg', filename: name + '-' + (urls.length + 1) }),
+        });
+        const uploadData = await uploadRes.json();
+        if (!uploadRes.ok) throw new Error(uploadData.error || 'No se pudo subir una de las fotos.');
+        urls.push(uploadData.url);
+      }
 
       const orderedTallas = RING_SIZES.filter(t => s.addProdTallas.includes(t));
       const meta = orderedTallas.length === 0 ? ''
@@ -2230,17 +2279,17 @@ class Component extends DCLogic {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           password: s.adminSecret, name, cat: s.addProdCat, type: s.addProdType,
-          price, stock, desc: s.addProdDesc.trim(), imageUrl: uploadData.url, meta,
+          price, stock, desc: s.addProdDesc.trim(), imageUrl: urls[0], images: urls, meta,
         }),
       });
       const createData = await createRes.json();
       if (!createRes.ok) throw new Error(createData.error || 'No se pudo crear el producto.');
 
-      if (s.addProdPreview) URL.revokeObjectURL(s.addProdPreview);
+      s.addProdPreviews.forEach(p => URL.revokeObjectURL(p.url));
       this.setState(st => ({
         newProducts: [...st.newProducts, createData.product],
         showAddProduct: false, addProdSaving: false,
-        addProdName: '', addProdPrice: '', addProdStock: '', addProdDesc: '', addProdFile: null, addProdPreview: '', addProdTallas: [],
+        addProdName: '', addProdPrice: '', addProdStock: '', addProdDesc: '', addProdFiles: [], addProdPreviews: [], addProdTallas: [],
       }));
     } catch (err) {
       this.setState({ addProdSaving: false, addProdError: (err && err.message) || 'Algo salió mal. Intenta de nuevo.' });
@@ -2592,12 +2641,17 @@ class Component extends DCLogic {
 
   openQuick = (id) => (ev) => {
     ev && ev.preventDefault && ev.preventDefault();
-    this.setState({ quickView: id, quickTalla: '', quickTallaError: '' });
+    this.setState({ quickView: id, quickTalla: '', quickTallaError: '', quickImgOverride: '' });
   };
 
   closeQuick = (ev) => {
     ev && ev.preventDefault && ev.preventDefault();
-    this.setState({ quickView: null, quickTalla: '', quickTallaError: '', imageZoomOpen: false, zoomedIn: false });
+    this.setState({ quickView: null, quickTalla: '', quickTallaError: '', imageZoomOpen: false, zoomedIn: false, quickImgOverride: '' });
+  };
+
+  setQuickImg = (url) => (ev) => {
+    ev && ev.stopPropagation && ev.stopPropagation();
+    this.setState({ quickImgOverride: url });
   };
 
   setQuickTalla = (t) => () => this.setState({ quickTalla: t, quickTallaError: '' });
@@ -2684,12 +2738,28 @@ class Component extends DCLogic {
       crumb: CATS[p.cat] + ' / ' + p.type,
       priceFmt: clp(price), oldFmt: p.old ? clp(p.old) : '', hasOld: !!p.old,
       tag: p.tag, hasTag: !!p.tag,
-      slotId: 'emigus-quick-' + p.id, img: o.img ?? p.img ?? '',
+      slotId: 'emigus-quick-' + p.id,
+      img: this.state.quickImgOverride || (o.img ?? p.img ?? ''),
       editable: this.state.editMode,
       fileInputId: 'emigus-quick-file-' + p.id,
       setImage: this.setProductImage(p.id),
       imgSaving: this.state.imgSavingId === p.id,
       imgIcon: this.state.imgSavingId === p.id ? 'ph-light ph-spinner-gap' : 'ph-light ph-camera',
+      // Galería: hoy solo la traen los productos agregados desde el sitio
+      // (columna K de "Productos nuevos"). Si tiene más de una foto, se
+      // muestran como miniaturas clicables debajo de la foto principal.
+      hasGallery: Array.isArray(p.images) && p.images.length > 1,
+      gallery: (Array.isArray(p.images) ? p.images : []).map(url => {
+        const active = (this.state.quickImgOverride || (o.img ?? p.img ?? '')) === url;
+        return {
+          url,
+          select: this.setQuickImg(url),
+          thumbStyle: {
+            width: '58px', height: '72px', padding: 0, cursor: 'pointer', overflow: 'hidden',
+            border: active ? '2px solid #B98B5C' : '1px solid #E7E0D6', background: 'none',
+          },
+        };
+      }),
       desc: desc, hasDesc: !!desc,
       stockLabel: this.stockText(stock),
       stockStyle: stock === 0
@@ -2919,8 +2989,8 @@ class Component extends DCLogic {
       addProdDesc: s.addProdDesc,
       setAddProdDesc: this.setAddProdField('addProdDesc'),
       setAddProdFile: this.setAddProdFile,
-      addProdPreview: s.addProdPreview,
-      hasAddProdPreview: !!s.addProdPreview,
+      addProdPreviews: s.addProdPreviews.map((p, i) => ({ url: p.url, isCover: i === 0, remove: this.removeAddProdFile(i) })),
+      hasAddProdPreview: s.addProdPreviews.length > 0,
       addProduct: this.addProduct,
       addProdSaving: s.addProdSaving,
       addProdSaveLabel: s.addProdSaving ? 'Guardando…' : 'Agregar producto',
