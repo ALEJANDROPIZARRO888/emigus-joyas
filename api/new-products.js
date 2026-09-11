@@ -38,6 +38,11 @@ module.exports = async (req, res) => {
   const stock = body.stock === undefined || body.stock === null || body.stock === '' ? 1 : Number(body.stock);
   const imageUrl = String(body.imageUrl || '').trim();
   const meta = String(body.meta || '').trim();
+  // Galería opcional: hasta 6 fotos, todas subidas antes vía /api/upload-image
+  // (por eso deben ser URLs https de Vercel Blob, igual que imageUrl).
+  const images = Array.isArray(body.images)
+    ? body.images.filter(u => typeof u === 'string' && /^https:\/\//.test(u)).slice(0, 6)
+    : [];
 
   if (!name) { res.status(400).json({ error: 'Falta el nombre.' }); return; }
   if (!['mujer', 'hombre', 'bebes'].includes(cat)) { res.status(400).json({ error: 'Categoría inválida.' }); return; }
@@ -50,7 +55,7 @@ module.exports = async (req, res) => {
   if (type === 'Anillos' && !meta) { res.status(400).json({ error: 'Selecciona la talla del anillo.' }); return; }
 
   try {
-    const product = await createProduct({ name, cat, type, price, stock, desc: String(body.desc || '').trim(), imageUrl, meta });
+    const product = await createProduct({ name, cat, type, price, stock, desc: String(body.desc || '').trim(), imageUrl, meta, images });
     res.status(200).json({ product });
   } catch (err) {
     console.error('new-products POST error:', err);
