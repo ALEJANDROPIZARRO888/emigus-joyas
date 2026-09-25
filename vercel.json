@@ -1,5 +1,17 @@
 {
+  "redirects": [
+    { "source": "/((?!api/).*)", "has": [{ "type": "host", "value": "www.emigus.cl" }], "destination": "https://emigus.cl/$1", "permanent": true },
+    { "source": "/((?!api/).*)", "has": [{ "type": "host", "value": "emigus-joyas.vercel.app" }], "destination": "https://emigus.cl/$1", "permanent": true },
+    { "source": "/index.html", "destination": "/", "permanent": true }
+  ],
   "rewrites": [
-    { "source": "/", "destination": "/EmiGus Joyas.dc.html" }
+    { "source": "/", "destination": "/EmiGus Joyas.dc.html" },
+    { "source": "/favicon.ico", "destination": "/favicon.svg" },
+    { "source": "/(joyas|mujer|hombre|bebes)", "destination": "/EmiGus Joyas.dc.html" },
+    { "source": "/(joyas|mujer|hombre|bebes)/:tipo", "destination": "/EmiGus Joyas.dc.html" },
+    { "source": "/joya/:producto", "destination": "/EmiGus Joyas.dc.html" },
+    { "source": "/ayuda", "destination": "/EmiGus Joyas.dc.html" },
+    { "source": "/ayuda/:tema", "destination": "/EmiGus Joyas.dc.html" },
+    { "source": "/(seguimiento|carrito)", "destination": "/EmiGus Joyas.dc.html" }
   ]
 }

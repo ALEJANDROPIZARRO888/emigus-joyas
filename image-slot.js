@@ -1111,6 +1111,10 @@
         };
       }
       this._cap.textContent = this.getAttribute('placeholder') || 'Drop an image';
+      // EmiGus: el placeholder es el nombre del producto o una descripción
+      // de la foto — sirve como texto alternativo para Google Imágenes y
+      // lectores de pantalla.
+      this._img.alt = this.getAttribute('alt') || this.getAttribute('placeholder') || '';
       // Toggle via style.display — the [hidden] attribute alone loses to
       // the display:flex / display:block rules in the stylesheet above.
       // An Unsplash src with no credit attribute must NOT render — showing
