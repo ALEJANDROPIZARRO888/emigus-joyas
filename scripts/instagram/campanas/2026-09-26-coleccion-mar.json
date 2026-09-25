@@ -1,0 +1,11 @@
+{
+  "slug": "2026-09-26-coleccion-mar",
+  "coleccion": "Colección Mar",
+  "portada": {
+    "titulo": "Colección Mar",
+    "bajada": "Aros de Plata 925 inspirados en el océano.",
+    "productId": 11
+  },
+  "productos": [5, 4, 58],
+  "cierre": { "productId": 4 }
+}
