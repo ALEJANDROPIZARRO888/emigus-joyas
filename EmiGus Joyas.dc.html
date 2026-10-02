@@ -108,6 +108,9 @@
     [data-lineprice] { grid-column: 2; text-align: left !important; }
     [data-foot] { grid-template-columns: 1fr !important; gap: 34px !important; }
     [data-editorial] { padding: 34px 22px !important; }
+    [data-cyber] { gap: 12px 18px !important; padding-top: 18px !important; padding-bottom: 18px !important; }
+    [data-cyber-sep] { display: none !important; }
+    [data-cyber-title] { flex-basis: 100% !important; font-size: 26px !important; }
     main h1 { font-size: 36px !important; }
     main h2 { font-size: 28px !important; }
   }
@@ -180,6 +183,21 @@
 
   <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
   <main>
+
+    <sc-if value="{{ cyberActive }}" hint-placeholder-val="{{ true }}">
+    <section style="background:#F8F1E9;border-bottom:1px solid #E9DCCB">
+      <div data-pad="1" data-cyber="1" style="max-width:1400px;margin:0 auto;padding:20px 40px;display:flex;align-items:center;justify-content:center;gap:30px;flex-wrap:wrap;text-align:center">
+        <span style="font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:#96693C">{{ cyberLabel }}</span>
+        <span data-cyber-sep="1" style="width:1px;height:26px;background:#DFC9AE"></span>
+        <span data-cyber-title="1" style="font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;font-weight:300;line-height:1.1;color:#2B2A28">15% de descuento <i>en toda la tienda</i></span>
+        <button onClick="{{ useCyberCode }}" title="Aplicar el código en tu carrito" style="display:inline-flex;align-items:center;gap:12px;border:1px dashed #B98B5C;background:#FFFDF9;padding:10px 20px;cursor:pointer;font-family:'Jost',sans-serif;color:#33322F;transition:all .35s ease" style-hover="background:#33322F;color:#FFFDF9;border-color:#33322F">
+          <span style="font-size:14px;letter-spacing:.24em;font-weight:500">CYBER15</span>
+          <span style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.7">{{ cyberCodeLabel }}</span>
+        </button>
+        <span style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#8A847B">Hasta el miércoles 7 de octubre</span>
+      </div>
+    </section>
+    </sc-if>
 
     <section data-hero="1" style="position:relative;height:88vh;min-height:620px;overflow:hidden;background:#EFE7DC">
       <div data-parallax="1" style="position:absolute;inset:-8% 0 -8% 0">
@@ -1832,6 +1850,7 @@ class Component extends DCLogic {
     subCouponCode: '',
     cartCouponInput: '',
     cartCoupon: null,
+    cyberApplied: false,
     cartCouponError: '',
     cartCouponChecking: false,
     adminSecret: '',
@@ -2603,9 +2622,9 @@ class Component extends DCLogic {
 
   setCartCouponInput = (ev) => this.setState({ cartCouponInput: ev.target.value, cartCouponError: '' });
 
-  applyCoupon = async (ev) => {
+  applyCoupon = async (ev, forcedCode) => {
     ev && ev.preventDefault && ev.preventDefault();
-    const code = (this.state.cartCouponInput || '').trim().toUpperCase();
+    const code = (forcedCode || this.state.cartCouponInput || '').trim().toUpperCase();
     if (!code || this.state.cartCouponChecking) return;
     this.setState({ cartCouponChecking: true, cartCouponError: '' });
     try {
@@ -2626,6 +2645,22 @@ class Component extends DCLogic {
   };
 
   removeCoupon = () => this.setState({ cartCoupon: null, cartCouponInput: '', cartCouponError: '' });
+
+  // Campaña Cyber 2026: el banner de la portada se apaga solo después de
+  // el 7 de octubre (hora de Chile), igual que el cupón en la hoja "Cupones".
+  cyberPhase = () => {
+    const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Santiago' }).format(new Date());
+    if (today > '2026-10-07') return null;
+    return today < '2026-10-05' ? 'Pre Cyber' : 'Cyber Monday';
+  };
+
+  // Tocar el código en el banner lo copia y lo deja aplicado en el carrito.
+  useCyberCode = async (ev) => {
+    ev && ev.preventDefault && ev.preventDefault();
+    try { navigator.clipboard.writeText('CYBER15').catch(() => {}); } catch (e) {}
+    this.setState({ cartCouponInput: 'CYBER15', cyberApplied: true });
+    await this.applyCoupon(null, 'CYBER15');
+  };
 
   downloadSubs = () => {
     const rows = [['correo', 'fecha', 'cupon', 'registrado_iso'], ...this.state.subs.map(r => [r.email, r.date, r.code, r.iso])];
@@ -3403,6 +3438,10 @@ class Component extends DCLogic {
       setCartCouponInput: this.setCartCouponInput,
       applyCoupon: this.applyCoupon,
       removeCoupon: this.removeCoupon,
+      cyberActive: !!this.cyberPhase(),
+      cyberLabel: this.cyberPhase() || '',
+      cyberCodeLabel: s.cyberApplied && s.cartCoupon && s.cartCoupon.code === 'CYBER15' ? 'Aplicado en tu carrito' : 'Toca para aplicarlo',
+      useCyberCode: this.useCyberCode,
       couponApplyLabel: s.cartCouponChecking ? 'Verificando…' : 'Aplicar',
       cartCouponError: s.cartCouponError,
       hasCartCouponError: !!s.cartCouponError,
