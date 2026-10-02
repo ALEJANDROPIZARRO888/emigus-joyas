@@ -134,6 +134,10 @@ module.exports = async (req, res) => {
       res.status(400).json({ error: 'Ese código de descuento ya fue usado.' });
       return;
     }
+    if (coupon.expired) {
+      res.status(400).json({ error: 'Ese código de descuento ya venció.' });
+      return;
+    }
     appliedCoupon = coupon;
     const factor = 1 - coupon.percent / 100;
     for (const item of lineItems) {

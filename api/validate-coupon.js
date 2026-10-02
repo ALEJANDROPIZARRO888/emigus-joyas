@@ -26,6 +26,10 @@ module.exports = async (req, res) => {
       res.status(200).json({ valid: false, error: 'Ese código ya fue usado.' });
       return;
     }
+    if (coupon.expired) {
+      res.status(200).json({ valid: false, error: 'Ese código ya venció.' });
+      return;
+    }
     res.status(200).json({ valid: true, percent: coupon.percent });
   } catch (err) {
     console.error('validate-coupon error:', err);

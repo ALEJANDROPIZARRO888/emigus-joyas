@@ -36,3 +36,4 @@
 - Un código se valida en el carrito (api/validate-coupon.js) pero solo se marca "usado" cuando MercadoPago confirma el pago (api/mp-webhook.js) — así una compra abandonada no gasta el cupón.
 - api/create-preference.js vuelve a validar el código en el servidor y aplica el % de descuento a cada línea antes de crear la preferencia (nunca confía en un descuento calculado en el navegador).
 - Para agregar códigos manuales (promociones, regalos, etc.): escribir una fila nueva en la pestaña "Cupones" con Código, Tipo, Descuento (%) y dejar "Usado" vacío — no hace falta tocar el código.
+- Códigos de campaña (ej. CYBER15): Tipo "Compartido" = sirve para muchas compras, nunca se marca "usado". Columna H "Vence" (dd/mm/aaaa, inclusive, hora de Chile) lo apaga solo al terminar la campaña; vacía = no vence.

@@ -193,7 +193,8 @@ module.exports = async (req, res) => {
     if (couponCode) {
       try {
         const coupon = await findCoupon(couponCode);
-        if (coupon && !coupon.used) {
+        // Los códigos compartidos de campaña nunca se marcan como usados.
+        if (coupon && !coupon.used && !coupon.shared) {
           await markCouponUsed(coupon.row, payment.external_reference || String(payment.id));
         }
       } catch (couponErr) {

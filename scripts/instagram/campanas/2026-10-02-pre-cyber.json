@@ -1,0 +1,12 @@
+{
+  "slug": "2026-10-02-pre-cyber",
+  "coleccion": "Pre Cyber",
+  "portada": {
+    "titulo": "15% en todo",
+    "bajada": "Toda la tienda con descuento desde hoy.",
+    "productId": 21
+  },
+  "productos": [9, 119, 117],
+  "cierre": { "productId": 119 },
+  "promo": { "etiqueta": "Pre Cyber", "porcentaje": 15, "codigo": "CYBER15", "hasta": "miércoles 7 de octubre" }
+}
